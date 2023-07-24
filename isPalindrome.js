@@ -12,3 +12,7 @@ function isPalindrom(s)// function that takes 1 argument and returns true if tha
 }
 console.log(isPalindrom('racecar'))// logged for testing
 console.log(isPalindrom('panda'))// logged for testing
+
+// also could be done like this
+
+let isPalindrom2 = str => str === str.split('').reverse().join('')
